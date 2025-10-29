@@ -43,7 +43,7 @@ char peek() {
     return q[front];
 }
 
-// Display queue (not needed for logic, but matches your style)
+
 void display() {
     if (front == -1 && rear == -1) {
         cout << "Queue is empty\n";
