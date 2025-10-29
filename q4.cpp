@@ -69,7 +69,7 @@ int main() {
         enqueue(ch);
         freq[ch - 'a']++;
 
-        // remove all repeating chars from queue front
+        
         while (front != -1 && freq[peek() - 'a'] > 1) {
             dequeue();
         }
